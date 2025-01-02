@@ -1,0 +1,20 @@
+{
+  "name": "server_hosts",
+  "version": "1.0.0",
+  "description": "Servidor de ping para Host",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Wellington Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "ping": "^0.4.4"
+  }
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: server_hosts
+    ports:
+      - "3030:3030"  # Mapeia a porta 3535 do container para a porta 3535 da máquina host
+    volumes:
+      - .:/app  # Monta o diretório atual (.) como /app dentro do container
+    environment:
+      - NODE_ENV=development  # Definindo uma variável de ambiente para o ambiente de desenvolvimento
+    restart: always  # Garante que o container reinicie automaticamente em caso de falha
