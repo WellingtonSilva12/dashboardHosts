@@ -2,6 +2,8 @@
 
 Este repositório contém uma aplicação **backend** e uma aplicação **frontend** que juntas permitem monitorar o status de conectividade de diferentes hosts por meio de requisições HTTP e pings.
 
+![Monitoramento de Hosts](https://github.com/WellingtonSilva12/dashboardHosts/blob/main/hostApp/Captura%20de%20tela%20de%202025-01-02%2014-36-35.png)
+
 ## Tecnologias Utilizadas
 
 ### Backend
